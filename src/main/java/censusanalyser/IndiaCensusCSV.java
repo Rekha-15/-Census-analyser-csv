@@ -1,3 +1,9 @@
+/************************************************************************
+ * Purpose : Pojo model for Census csv file
+ * @author Rekha
+ * @Since 5-07-2021
+ * @Version 0.1
+ *********************************************************************/
 package censusanalyser;
 
 import com.opencsv.bean.CsvBindByName;

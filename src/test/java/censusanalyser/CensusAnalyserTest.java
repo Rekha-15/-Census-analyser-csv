@@ -1,3 +1,9 @@
+/***************************************************************
+ *@purpose Implementing Indian States Census Analyser Problem.
+ *@author Rekha
+ *@version 1.0
+ *@since 3-07-2021
+ **************************************************************/
 package censusanalyser;
 
 import org.junit.Assert;
@@ -5,6 +11,11 @@ import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.rules.ExpectedException;
 
+/**
+ * CensusAnalyserTest is a test class
+ * testing weather it return given Indian Census CSVFile Returns Correct Records.
+ * and testing giving India CensusData withWrong File Should Throw Exception
+ */
 public class CensusAnalyserTest {
 
     private static final String INDIA_CENSUS_CSV_FILE_PATH = "./src/test/resources/IndiaStateCensusData.csv";
